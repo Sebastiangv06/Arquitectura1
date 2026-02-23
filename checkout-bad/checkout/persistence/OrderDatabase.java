@@ -5,13 +5,7 @@ import com.checkout.domain.Order;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * ❌ PROBLEMA: CheckoutService depende directamente de esta clase concreta,
- * no de una interfaz. No hay contrato abstracto entre capas.
- *
- * Para tests, no puedes sustituirla fácilmente — tendrías que instanciar
- * la clase real o usar reflection/mocks pesados.
- */
+
 public class OrderDatabase {
 
     private final Map<String, Order> store = new HashMap<>();
