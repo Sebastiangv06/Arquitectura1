@@ -1,0 +1,6 @@
+src/main/java/com/checkout/domain/Money.java
+src/main/java/com/checkout/domain/Order.java
+src/main/java/com/checkout/persistence/OrderDatabase.java
+src/main/java/com/checkout/service/CheckoutService.java
+src/main/java/com/checkout/service/CheckoutResult.java
+src/main/java/com/checkout/app/App.java
